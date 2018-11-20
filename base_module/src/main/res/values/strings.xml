@@ -1,0 +1,11 @@
+<resources>
+    <string name="common_app_name">彩虹馆</string>
+
+    <string name="common_please_wait">加载中。。。</string>
+    <string name="common_response_return_error">服务器返回数据失败</string>
+    <string name="common_connect_error">网络连接失败,请检查网络</string>
+    <string name="common_connect_timeout">连接超时,请稍后再试</string>
+    <string name="common_bad_network">服务器异常</string>
+    <string name="common_parse_error">解析服务器响应数据失败</string>
+    <string name="common_unknown_error">未知错误</string>
+</resources>

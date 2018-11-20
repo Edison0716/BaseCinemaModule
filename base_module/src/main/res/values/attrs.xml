@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName">
+    <declare-styleable name="RoundAngleLinearLayout">
+        <attr name="radius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundAngleFrameLayout">
+        <attr name="bannerRadius" format="dimension" />
+        <attr name="bannerTopLeftRadius" format="dimension" />
+        <attr name="bannerTopRightRadius" format="dimension" />
+        <attr name="bannerBottomLeftRadius" format="dimension" />
+        <attr name="bannerBottomRightRadius" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundView">
+        <attr name="roundViewRadius" format="dimension" />
+        <attr name="roundViewStrokeWidth" format="dimension" />
+        <attr name="roundViewStrokeColor" format="color" />
+        <attr name="roundViewShape" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RaidoTextView">
+        <attr name="raidoTextViewTitleText" format="string" />
+        <attr name="raidoTextViewBackground" format="color"/>
+        <attr name="raidoTextViewTitleTextSize" format="dimension"/>
+        <attr name="raidoTextViewTitleTextColor" format="color"/>
+        <attr name="raidoTextViewCornerSize" format="integer"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="DeleteEditText">
+        <attr name="deleteSrc" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_colorPrimary">#fe5757</color>
+    <color name="common_colorPrimaryDark">#fe5757</color>
+    <color name="common_colorAccent">#fe5757</color>
+
+
+    <color name="common_transparent_white">#00ffffff</color>
+    <color name="common_transparent10_white">#1Affffff</color>
+    <color name="common_transparent20_white">#33ffffff</color>
+    <color name="common_transparent30_white">#4Dffffff</color>
+    <color name="common_transparent40_white">#66ffffff</color>
+    <color name="common_transparent50_white">#80ffffff</color>
+    <color name="common_transparent60_white">#9Affffff</color>
+    <color name="common_transparent70_white">#B3ffffff</color>
+    <color name="common_transparent80_white">#CCffffff</color>
+    <color name="common_transparent90_white">#E5ffffff</color>
+    <color name="common_transparent100_white">#FFffffff</color>
+
+    <color name="common_transparent">#00000000</color>
+    <color name="common_transparent05">#0B000000</color>
+    <color name="common_transparent10">#1A000000</color>
+    <color name="common_transparent20">#33000000</color>
+    <color name="common_transparent30">#4D000000</color>
+    <color name="common_transparent40">#66000000</color>
+    <color name="common_transparent50">#80000000</color>
+    <color name="common_transparent60">#9A000000</color>
+    <color name="common_transparent70">#B3000000</color>
+    <color name="common_transparent80">#CC000000</color>
+    <color name="common_transparent90">#E5000000</color>
+    <color name="common_transparent100">#FF000000</color>
+
+    <color name="common_text_red">#FF4349</color>
+    <color name="common_divider">#F6F8FA </color>
+    <color name="common_header_bg_color_start">#FF7278</color>
+    <color name="common_header_bg_color_end">#FF4349</color>
+    <color name="common_color_log_in_header_red">#EA5D4F</color>
+    <color name="common_text_gray">#FF9CACC0</color>
+    <color name="common_text_black">#262933</color>
+    <color name="common_left_round_shape_color">#EE8989</color>
+</resources>

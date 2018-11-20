@@ -1,0 +1,85 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="common_AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/common_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/common_colorPrimary</item>
+        <item name="colorAccent">@color/common_colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/common_AnimationActivity</item>
+    </style>
+
+    <style name="common_AppTheme" parent="common_AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <!--Activity turn anim-->
+    <style name="common_AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/common_slide_in_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/common_slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/common_slide_in_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/common_slide_out_right</item>
+    </style>
+
+
+    <style name="common_dialog_alpha_theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/common_dialog_alpha_anim</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- 外部变灰 -->
+        <item name="android:windowContentOverlay">@null</item><!-- 内部阴影 -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--淡入淡出-->
+    <style name="common_dialog_alpha_anim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/common_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/common_alpha_out</item>
+    </style>
+
+    <style name="common_dialog_bottom_top_theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- 外部变灰 -->
+        <item name="android:windowContentOverlay">@null</item><!-- 内部阴影 -->
+        <item name="android:windowAnimationStyle">@style/common_dialog_bottom_top_anim</item>
+    </style>
+
+    <!--底部弹出-->
+    <style name="common_dialog_bottom_top_anim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/common_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/common_push_bottom_out</item>
+    </style>
+
+
+    <style name="common_dialog_scale_theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- 外部变灰 -->
+        <item name="android:windowContentOverlay">@null</item><!-- 内部阴影 -->
+        <item name="android:windowAnimationStyle">@style/common_dialog_scale_anim</item>
+    </style>
+
+    <!--缩放动画-->
+    <style name="common_dialog_scale_anim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/common_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/common_scale_out</item>
+    </style>
+
+    <style name="common_dialog_zoom_theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- 外部变灰 -->
+        <item name="android:windowContentOverlay">@null</item><!-- 内部阴影 -->
+        <item name="android:windowAnimationStyle">@style/common_dialog_zoom_anim</item>
+        <!--设置状态栏颜色-->
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <!--缩放动画-->
+    <style name="common_dialog_zoom_anim" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/common_zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/common_zoom_out</item>
+    </style>
+</resources>
