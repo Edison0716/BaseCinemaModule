@@ -55,7 +55,7 @@ dependencies {
     kapt 'com.github.bumptech.glide:compiler:4.7.1'
     api 'com.github.bumptech.glide:okhttp3-integration:4.7.1'
     api 'jp.wasabeef:glide-transformations:3.3.0'
-    api 'com.didi.virtualapk:core:0.9.6'
+    api 'com.didi.virtualapk:core:0.9.8'
     api 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
     api 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
     api 'de.hdodenhof:circleimageview:2.2.0'
