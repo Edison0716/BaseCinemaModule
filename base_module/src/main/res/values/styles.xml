@@ -1,9 +1,9 @@
 <resources>
     <!-- Base application theme. -->
     <style name="common_AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/common_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/common_colorPrimary</item>
-        <item name="colorAccent">@color/common_colorPrimary</item>
+        <item name="colorPrimary">@color/common_transparent100_white</item>
+        <item name="colorPrimaryDark">@color/common_transparent100_white</item>
+        <item name="colorAccent">@color/common_transparent100_white</item>
         <!-- Customize your theme here. -->
         <item name="android:windowAnimationStyle">@style/common_AnimationActivity</item>
     </style>
