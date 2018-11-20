@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.LayoutRes
 import android.support.v7.app.AppCompatActivity
-import com.blankj.utilcode.util.ScreenUtils
+import com.blankj.utilcode.util.AdaptScreenUtils
 import com.junlong0716.base.module.manager.ActivityManager
 import com.junlong0716.base.module.rx.bus.RxBus
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity
@@ -43,11 +43,9 @@ abstract class BaseActivity<P : IPresenter> : RxAppCompatActivity() {
     }
 
     private fun adaptScreen() {
-        if (ScreenUtils.isPortrait()) {
-            ScreenUtils.adaptScreen4VerticalSlide(this, 408)
-        } else {
-            ScreenUtils.adaptScreen4HorizontalSlide(this, 408)
-        }
+        AdaptScreenUtils.adaptHeight(super.getResources(),749)
+
+        AdaptScreenUtils.adaptWidth(super.getResources(),375)
     }
 
     abstract fun beforeSetLayout()
@@ -70,7 +68,7 @@ abstract class BaseActivity<P : IPresenter> : RxAppCompatActivity() {
         //解除注册RxBus
         RxBus.default.unregister(this)
 
-        ScreenUtils.cancelAdaptScreen(this)
+        AdaptScreenUtils.closeAdapt(super.getResources())
     }
 
 
