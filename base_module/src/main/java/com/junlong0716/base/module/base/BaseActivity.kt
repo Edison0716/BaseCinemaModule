@@ -35,17 +35,8 @@ abstract class BaseActivity<P : IPresenter> : RxAppCompatActivity() {
         //注册RxBus
         registerRxBus()
 
-        //统一适配屏幕
-        adaptScreen()
-
         //初始化控件
         initView(savedInstanceState)
-    }
-
-    private fun adaptScreen() {
-        AdaptScreenUtils.adaptHeight(super.getResources(),749)
-
-        AdaptScreenUtils.adaptWidth(super.getResources(),375)
     }
 
     abstract fun beforeSetLayout()
