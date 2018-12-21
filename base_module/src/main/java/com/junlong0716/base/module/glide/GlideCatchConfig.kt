@@ -12,5 +12,5 @@ object GlideCatchConfig {
     val GLIDE_CATCH_SIZE = 150 * 1000 * 1000
 
     // 图片缓存子目录
-    val GLIDE_CARCH_DIR = "glide_image_catch"
+    val GLIDE_CARCH_DIR = "glide_image_cache"
 }
